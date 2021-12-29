@@ -9,8 +9,11 @@ class Network:
     
     done = [];
     
-    def recursiveCompute(i):
+    def recursiveCompute(x):
+        in = 0;
         
+        for i in range(0, n[x].in_cCount):
+            for j in range
     
     def computeNN(ac):
         for i in range(0, len(done)):
