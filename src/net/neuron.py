@@ -5,6 +5,9 @@ class Neuron:
     in_cCount = 0;
     out_cCount = 0;
     
+    index = [];
+    ptr = [];
+    
     activations = [];
     activation = [];
 
