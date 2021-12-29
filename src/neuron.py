@@ -7,9 +7,8 @@ class Neuron:
     
     activations = [];
     activation = [];
-    
-        
 
+    
 def compute(Neuron n):
     a = 0;
     
