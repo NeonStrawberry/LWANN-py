@@ -19,6 +19,8 @@ class Network:
                     
         for i in range(0, n[x].in_cCount):
             tempN[x].activations[i] = n[n[x].index[i]].activation[in[]]; #Setting up the proper activatons
+            
+        tempN[x].activation = compute(tempN[x]);
     
     def computeNN(ac):
         ret = [];
